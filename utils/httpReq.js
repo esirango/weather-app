@@ -21,7 +21,6 @@ const getWeatherData = async (type, data) => {
       }
 
     default:
-      url = `${BASE_URL}/forecast?q=rasht&units=metric&appid=${API_KEY}`;
       break;
   }
   try {
